@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Feedback from './Feedback/Feedback';
+import Section from './Section/Section';
 
 export default class App extends Component {
   state = {
@@ -40,7 +40,7 @@ export default class App extends Component {
           color: '#010101',
         }}
       >
-        <Feedback
+        <Section
           data={this.state}
           increment={this.increment}
           countTotalFeedback={this.countTotalFeedback}
